@@ -4,7 +4,14 @@ function App() {
 
   return (
     <>
-      <h1>Saurabh</h1>
+      <div className='website'>
+        <div className='lorem'>
+          <b>Lorem Ipsum</b>
+        </div>
+        <div className='link1'>
+          <b>LINK 1</b>
+        </div>
+      </div>
     </>
   )
 }

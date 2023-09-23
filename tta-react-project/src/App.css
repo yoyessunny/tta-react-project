@@ -3,3 +3,22 @@
   margin: 0 auto;
   text-align: center;
 }
+
+.website{
+  margin: 100px;
+  display: flex;
+}
+
+.lorem{
+  border: 2px solid black;
+  width: 30%;
+  padding: 20px;
+}
+
+.link1{
+  border: 2px solid black;
+  width: 70%;
+  padding: 20px;
+  text-align: right;
+  border-left-style: hidden;
+}
