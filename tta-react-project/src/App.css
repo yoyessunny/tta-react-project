@@ -7,6 +7,12 @@
 .website{
   margin: 100px;
   display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+
+.navbar{
+  display: flex;
 }
 
 .lorem{
@@ -21,4 +27,34 @@
   padding: 20px;
   text-align: right;
   border-left-style: hidden;
+}
+
+.hero_section{
+  display: flex;
+  height: 250px;
+  border: 2px solid black;
+  border-top-style: hidden;
+}
+
+.hero_content{
+  border-right: 2px solid black;
+  width: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_empty{
+  width: 50%;
+}
+
+.footer{
+  height: 100px;
+  border: 2px solid black;
+  border-top-style:hidden;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  padding: 20px;
 }
